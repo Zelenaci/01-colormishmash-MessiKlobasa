@@ -30,7 +30,7 @@ class Application(tk.Tk):
 
         self.lblB = tk.Label(self, text="B") #Nadpis, který se zobrazuje
         self.lblB.pack() #umístění nadpisu (3 typy umístění: pack, grid a place)
-        self.scaleB = Scale(self, from_=0, to=255, orient=HORIZONTAL, length=256,)
+        self.scaleB = Scale(self, from_=0, to=255, orient=HORIZONTAL, length=256)
         self.scaleB.pack()
 
         self.canvasMain = Canvas(self, width=200, height=100, background='#000000' )
